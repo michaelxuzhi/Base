@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:weightSum="1">
+
+
+    <EditText
+        android:id="@+id/etSQLName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" " />
+
+    <EditText
+        android:id="@+id/etSQLHotness"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" " />
+
+
+
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.16"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bSQLUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="upgrade"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/bSQLView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="0.5"
+            android:text="view"
+            android:textSize="20sp" />
+</LinearLayout>
+
+</LinearLayout>
+
+
+
